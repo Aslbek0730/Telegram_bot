@@ -12,7 +12,7 @@ if ENV_FILE.exists():
 else:
     load_dotenv()
 
-DEFAULT_BOT_TOKEN = " "
+DEFAULT_BOT_TOKEN = "8279364244:AAFQqFaG8Lg-kYRCjfCO3-vJ9M4DYPtmt94"
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", DEFAULT_BOT_TOKEN).strip()
 if not BOT_TOKEN:
